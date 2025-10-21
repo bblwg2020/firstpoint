@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROJECT-NAME — An Efficient Framework for 3D Point Clouds</title>
+  <meta name="description" content="PROJECT-NAME: a concise academic project page with paper, code, demo, and results." />
+  <!-- Open Graph / Twitter for nice link previews -->
+  <meta property="og:title" content="PROJECT-NAME — 3D Point Cloud Project" />
+  <meta property="og:description" content="Paper · Code · Demo · Data · Results" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/teaser_og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.ico" />
+  <style>
+    :root {
+      --bg: #0b0c10; --panel:#111317; --muted:#8892b0; --text:#e6edf3; --brand:#4f46e5; --brand2:#22d3ee;
+      --ring: 0 0 0 3px rgba(79,70,229,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .nav{display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .nav .links{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid #2a2f3a;padding:10px 14px;border-radius:999px;background:#151923}
+    .btn:hover{box-shadow:var(--ring)}
+    .badge{font-size:12px;padding:3px 8px;border-radius:999px;background:linear-gradient(90deg,var(--brand),var(--brand2));color:white}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;margin:28px 0}
+    .hero h1{font-size:40px;line-height:1.1;margin:0 0 12px}
+    .hero p{color:var(--muted);margin:0 0 20px}
+    .card{background:var(--panel);border:1px solid #1c202b;border-radius:14px;padding:18px}
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr}.grid.cols-2{grid-template-columns:1fr}}
+    .meta{display:flex;gap:12px;flex-wrap:wrap}
+    .authors a{color:#c7d2fe}
+    .thumb{width:100%;aspect-ratio:16/9;border-radius:10px;object-fit:cover;border:1px solid #222}
+    code,pre{background:#0d1117;border:1px solid #1f2937;border-radius:8px}
+    pre{padding:14px;overflow:auto}
+    .section h2{margin:10px 0 8px;font-size:24px}
+    .footer{margin:32px 0 10px;color:#8b93a7;font-size:14px}
+    .kbd{padding:.1em .45em;border:1px solid #3b4252;border-bottom-width:2px;border-radius:6px;background:#0e1117}
+    .pill{padding:2px 8px;border:1px solid #2a2f3a;border-radius:999px;color:#b9c2d0}
+  </style>
+</head>
+<body>
+  <header class="container nav">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span class="badge">NEW</span>
+      <strong>PROJECT‑NAME</strong>
+    </div>
+    <nav class="links">
+      <a href="#paper">Paper</a>
+      <a href="#code">Code</a>
+      <a href="#demo">Demo</a>
+      <a href="#results">Results</a>
+      <a href="#bibtex">BibTeX</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div>
+        <div class="pill">Affiliations · <span class="kbd">Your Lab</span> · <span class="kbd">University</span></div>
+        <h1>PROJECT‑NAME: Efficient Deployment for Sparse Convolution on Point Clouds</h1>
+        <p>We present a lightweight semantic filtering and adaptive octree partitioning framework that accelerates LiDAR‑based 3D object detection while reducing memory traffic on edge devices.</p>
+        <div class="meta">
+          <div class="authors">
+            <strong>Authors:</strong>
+            <a href="#">Alice Zhang</a>, <a href="#">Bob Li</a>, <a href="#">You</a>
+          </div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+          <a class="btn" href="#paper">📄 Paper (PDF)</a>
+          <a class="btn" href="#code">💻 Code</a>
+          <a class="btn" href="#demo">🧪 Demo</a>
+          <a class="btn" href="#poster">🖼️ Poster</a>
+          <a class="btn" href="#video">▶️ Video</a>
+        </div>
+      </div>
+      <div>
+        <img class="thumb" src="assets/teaser.png" alt="Project teaser" />
+      </div>
+    </section>
+
+    <section id="abstract" class="section card">
+      <h2>Abstract</h2>
+      <p>Replace this paragraph with your camera‑ready abstract. Keep it concise (120–180 words). Clearly state the problem, method, and key quantitative results.</p>
+    </section>
+
+    <section id="paper" class="section grid cols-2">
+      <div class="card">
+        <h2>Paper & Materials</h2>
+        <ul>
+          <li>📄 <a href="paper/PROJECT_NAME.pdf">Paper (PDF)</a></li>
+          <li>📑 <a href="paper/PROJECT_NAME_supp.pdf">Supplementary</a></li>
+          <li>🖼️ <a href="#poster" id="poster">Poster (PNG/PDF)</a></li>
+          <li>🎥 <a href="#video" id="video">Talk / Teaser Video</a></li>
+          <li>🗂️ <a href="#data">Dataset / Pretrained Models</a></li>
+        </ul>
+      </div>
+      <div class="card" id="code">
+        <h2>Code</h2>
+        <p>Official implementation with instructions to reproduce results:</p>
+        <ul>
+          <li>GitHub: <a href="https://github.com/YOUR_ORG/PROJECT_NAME">github.com/YOUR_ORG/PROJECT_NAME</a></li>
+          <li>PyPI (optional): <code>pip install project-name</code></li>
+          <li>Docker (optional): <code>docker pull ghcr.io/YOUR_ORG/project-name:latest</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="demo" class="section card">
+      <h2>Interactive Demo (Optional)</h2>
+      <p>Embed a Colab/Spaces/Gradio link, or a lightweight WebGL viewer.</p>
+      <ul>
+        <li>👉 <a href="https://colab.research.google.com/">Open in Colab</a></li>
+        <li>👉 <a href="https://huggingface.co/spaces">Hugging Face Space</a></li>
+      </ul>
+      <div style="aspect-ratio:16/9;background:#0d1117;border:1px dashed #2a2f3a;border-radius:10px;display:grid;place-items:center;color:#8b93a7">Demo iframe placeholder</div>
+    </section>
+
+    <section id="results" class="section">
+      <h2>Results</h2>
+      <div class="grid cols-3">
+        <figure class="card">
+          <img class="thumb" src="assets/qual_1.png" alt="qualitative result 1" />
+          <figcaption>Qualitative results on KITTI.</figcaption>
+        </figure>
+        <figure class="card">
+          <img class="thumb" src="assets/qual_2.png" alt="qualitative result 2" />
+          <figcaption>Runtime breakdown on edge device.</figcaption>
+        </figure>
+        <figure class="card">
+          <img class="thumb" src="assets/qual_3.png" alt="qualitative result 3" />
+          <figcaption>AP vs. sparsity trade‑off.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="bibtex" class="section card">
+      <h2>Cite</h2>
+      <pre><code>@inproceedings{YourKey2026,
+  title     = {PROJECT-NAME: Efficient Deployment for Sparse Convolution on Point Clouds},
+  author    = {Alice Zhang and Bob Li and Your Name},
+  booktitle = {IEEE ISCAS},
+  year      = {2026},
+  url       = {https://your.domain/project-name}
+}</code></pre>
+    </section>
+
+    <section id="faq" class="section grid cols-2">
+      <div class="card">
+        <h2>FAQ</h2>
+        <p><strong>Q:</strong> How do I reproduce the main table?<br><strong>A:</strong> See <code>README.md</code> and the provided training script with default seeds.</p>
+        <p><strong>Q:</strong> Will you release pretrained models?<br><strong>A:</strong> Yes. We provide links once the camera‑ready is accepted.</p>
+      </div>
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@university.edu">you@university.edu</a></p>
+        <p>Twitter/X: <a href="#">@yourhandle</a></p>
+      </div>
+    </section>
+
+    <footer class="container footer">
+      © <span id="year"></span> Your Lab · This page is open‑sourced under MIT.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
